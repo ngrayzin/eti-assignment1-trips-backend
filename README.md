@@ -4,6 +4,12 @@ This is the second microservice of the ETI assignment 1. This backend handles ev
 
 To run the backend, run `go run main.go` in the project command prompt.
 
+## Project repos
+* [Frontend](https://github.com/ngrayzin/eti-assignment1-frontend)
+* [Db](https://github.com/ngrayzin/eti-assignment1-db)
+* [User Backend](https://github.com/ngrayzin/eti-assignment1-user-backend)
+* [Trips Backend](https://github.com/ngrayzin/eti-assignment1-trips-backend)
+
 ## Considerations for trips backend:
 - For time conflicts for enrollment, passengers are not allowed to book a trip within a 30 min time range of a current booked trip.<br>
   Here is an example, I have a booking at 2pm.<br>
